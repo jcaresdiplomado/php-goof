@@ -87,7 +87,7 @@ To use this in this app, load the below code into a todo item and click pdf on i
 Additional, added an example that uses a reverse shell by using a php `eval()` in a font file leveraging the RCE exploit. This works the same as above but using the below CSS. To use it simply load any get variable into the url when the gotcha link is created in the pdf, example `...?test=phpinfo();`. Regular $_GET references didnt work but `reset()` did which will pick up the first in the $ array and run it in `eval()`.
 
 Note this uses a different font file and family in the exploit folder.
-Line added to trigger Sonarqube
+Line added to trigger Sonarqube2
 
 ```
 <link rel=stylesheet href='https://raw.githubusercontent.com/snyk-labs/php-goof/main/exploits/rshell.css'>
